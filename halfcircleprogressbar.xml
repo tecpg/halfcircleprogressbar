@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
 
-    <com.bettingtips.kbtapp.HalfCircleProgressBar
+    <com.yoour.package.name.HalfCircleProgressBar
         android:id="@+id/halfCircleProgressBar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
