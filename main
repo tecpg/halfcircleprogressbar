@@ -1,0 +1,19 @@
+package your.package.name;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class HalfCirclePBar extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_half_circle_p_bar);
+
+
+        //Here you code for the meter readings
+        HalfCircleProgressBar progressBar = findViewById(R.id.halfCircleProgressBar);
+        progressBar.setProgress(38); // Set progress
+    }
+}
