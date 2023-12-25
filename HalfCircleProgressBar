@@ -1,4 +1,4 @@
-package com.pbar.halfcircleprogressbar;
+package com.your.package.name.halfcircleprogressbar;
 
 import android.content.Context;
 import android.graphics.Canvas;
